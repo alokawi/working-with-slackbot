@@ -1,11 +1,12 @@
 /**
  * 
  */
-package alokawi.slackbot.core;
+package alokawi.slackbot.core.bot;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 import org.springframework.web.socket.WebSocketSession;
 
 import me.ramswaroop.jbot.core.slack.Bot;
@@ -18,6 +19,7 @@ import me.ramswaroop.jbot.core.slack.models.Message;
  * @author alokkumar
  *
  */
+@Component
 public class SlackBotService extends Bot {
 	private static final Logger logger = LoggerFactory.getLogger(SlackBotService.class);
 
