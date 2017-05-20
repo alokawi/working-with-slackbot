@@ -3,7 +3,7 @@ package alokawi.slackbot.core;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = { "me.ramswaroop.jbot", "alokawi.slackbot.core" })
+@SpringBootApplication(scanBasePackages = { "me.ramswaroop.jbot", "alokawi.slackbot.core.bot" })
 public class SlackBotApplication {
 
 	/**
